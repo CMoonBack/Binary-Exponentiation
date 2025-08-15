@@ -1,4 +1,4 @@
-/// Calculates the power of a number using binary exponentiation algorithm, also
+///| Calculates the power of a number using binary exponentiation algorithm, also
 /// known as fast exponentiation.
 ///
 /// Parameters:
@@ -34,7 +34,7 @@ fn bin_pow(x : Int64, y : Int64) -> Int64 {
   res
 }
 
-/// Calculates the modular exponentiation using binary exponentiation algorithm
+///| Calculates the modular exponentiation using binary exponentiation algorithm
 /// (also known as fast exponentiation). This is particularly useful for
 /// computing large powers in modular arithmetic without causing overflow.
 ///
