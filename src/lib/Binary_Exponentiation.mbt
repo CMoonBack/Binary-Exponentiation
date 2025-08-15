@@ -20,7 +20,7 @@
 ///   inspect!(bin_pow(15, 20), content="4664335276710460609")
 /// }
 /// ```
-fn bin_pow(x : Int64, y : Int64) -> Int64 {
+pub fn bin_pow(x : Int64, y : Int64) -> Int64 {
   let mut res : Int64 = 1
   let mut a : Int64 = x
   let mut n : Int64 = y
@@ -64,7 +64,7 @@ fn bin_pow(x : Int64, y : Int64) -> Int64 {
 ///   let _ = bin_pow_mod(2, 3, 0)
 /// }
 /// ```
-fn bin_pow_mod(x : Int64, y : Int64, z : Int64) -> Int64 {
+pub fn bin_pow_mod(x : Int64, y : Int64, z : Int64) -> Int64 {
   let mut res : Int64 = 1
   let mut a : Int64 = x
   let mut n : Int64 = y

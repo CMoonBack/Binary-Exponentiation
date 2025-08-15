@@ -2,6 +2,9 @@
 package "CMoonBack/Binary-Exponentiation/lib"
 
 // Values
+fn bin_pow(Int64, Int64) -> Int64
+
+fn bin_pow_mod(Int64, Int64, Int64) -> Int64
 
 // Errors
 
